@@ -1,0 +1,12 @@
+body{
+    background-image: url(hatter.jpg);
+}
+
+.navbar{
+    background-color: none;
+}
+
+button{
+    color: white;
+    background-color: none;
+}
