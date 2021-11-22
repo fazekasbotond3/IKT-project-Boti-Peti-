@@ -1,12 +1,25 @@
+@font-face {
+    font-family: Knewave-Regular;
+    src: url('Knewave-Regular.ttf');
+}
+
 body{
     background-image: url(hatter.jpg);
 }
 
 .navbar{
     background-color: none;
+    width: 100%;
+    padding-left: 10%;
+    margin-top: 25%;
 }
 
 button{
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
     color: white;
-    background-color: none;
+    font-size: 24px;
+    margin-left: 8%;
+    font-family: Knewave-Regular;
 }
