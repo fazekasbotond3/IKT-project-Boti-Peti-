@@ -54,3 +54,26 @@ iframe{
     margin-top: 8%;
     box-shadow: rgb(0, 0, 0) 5px 10px 10px 10px ;
 }
+
+#galeria{
+    width: 300px;
+    height: 200px;
+    padding: 1%;
+    transition: 0.5s;
+}
+
+#galeria:hover{
+    width: 450px;
+    height: 300px;
+}
+
+#galeriabody{
+    background-color: grey;
+    background-image: none;
+}
+
+.galeriadiv{
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
