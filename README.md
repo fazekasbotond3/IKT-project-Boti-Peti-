@@ -1,1 +1,2 @@
 # IKT-project-Boti-Peti-
+Ez a weboldal Fezekas Botond és Kovács Péter munkája. A Tréfa iszogató nevű kocsmát mutatja be. Megbróbálja bevonzani a kikapcsolódni vágyókat és felejthetetlen élményt nyújtani a progrmajaival
