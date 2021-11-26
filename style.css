@@ -107,6 +107,7 @@ h1{
 p{
     font-family: rubik-italic-variablefont_wght;
     font-size: 24px;
+    line-height: 150%;
 }
 
 table{
@@ -131,9 +132,29 @@ td{
 
 .bemutatkozasszoveg{
     text-align: center;
+    transition: 0.5s;
+}
+
+.bemutatkozasszoveg:hover{
+    font-size: 30px;
 }
 
 td:hover{
     background-color: rgb(190, 152, 102);
     background-color: rgba(0, 0, 0, 0.4);
+}
+
+h2{
+    font-family: rubik-italic-variablefont_wght;
+    font-size: 28px;
+}
+
+h3{
+    font-family: rubik-italic-variablefont_wght;
+    font-size: 24px;
+}
+
+ul{
+    font-family: rubik-italic-variablefont_wght;
+    font-size: 20px;
 }
