@@ -34,7 +34,6 @@ button{
 
 button:hover{
     font-size: 45px;
-    text-decoration: underline;
 }
 
 h1{
@@ -68,7 +67,7 @@ iframe{
 }
 
 #galeriabody{
-    background-color: grey;
+    background-color: rgb(190, 152, 102);
     background-image: none;
 }
 
@@ -77,3 +76,17 @@ iframe{
     margin-top: 5%;
 }
 
+#galerianavbar{
+    width: 99%;
+    height: 2%;
+    background-color: rgb(82, 60, 33);
+}
+
+.galeriabutton{
+    width: 16%;
+    color: rgb(255, 220, 175);
+}
+
+.galeriabutton:hover{
+    color: white;
+}
