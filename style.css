@@ -3,7 +3,12 @@
     src: url('Knewave-Regular.ttf');
 }
 
-body{
+@font-face {
+    font-family: rubik-italic-variablefont_wght;
+    src: url('Rubik-Italic-VariableFont_wght.ttf');
+}
+
+#fooldalbody{
     background-image: url(images/hatter.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -36,7 +41,7 @@ button:hover{
     font-size: 45px;
 }
 
-h1{
+#fooldalbody>h1{
     font-size: 45px;
     font-family: Knewave-Regular;
     font-weight: bold;
@@ -66,7 +71,7 @@ iframe{
     height: 300px;
 }
 
-#galeriabody{
+body{
     background-color: rgb(190, 152, 102);
     background-image: none;
 }
@@ -90,3 +95,34 @@ iframe{
 .galeriabutton:hover{
     color: white;
 }
+
+h1{
+    color: rgb(82, 60, 33);
+    font-family: rubik-italic-variablefont_wght;
+    font-size: 36px;
+    text-align: center;
+}
+
+p{
+    font-family: rubik-italic-variablefont_wght;
+    font-size: 20px;
+}
+
+table{
+    font-family: rubik-italic-variablefont_wght;
+    font-size: 20px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 1%;
+    width: 2%;
+}
+
+.elso{
+    text-align: center;
+}
+
