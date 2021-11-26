@@ -99,13 +99,14 @@ body{
 h1{
     color: rgb(82, 60, 33);
     font-family: rubik-italic-variablefont_wght;
-    font-size: 36px;
+    font-size: 40px;
     text-align: center;
+    font-weight: bold;
 }
 
 p{
     font-family: rubik-italic-variablefont_wght;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 table{
@@ -113,16 +114,26 @@ table{
     font-size: 20px;
     border: 2px solid black;
     border-collapse: collapse;
+    width: 30%;
+    margin-left: 35%;
 }
 
 td{
     border: 2px solid black;
     border-collapse: collapse;
-    padding: 1%;
-    width: 2%;
+    padding: 2%;
 }
 
 .elso{
     text-align: center;
+    font-weight: bold;
 }
 
+.bemutatkozasszoveg{
+    text-align: center;
+}
+
+td:hover{
+    background-color: rgb(190, 152, 102);
+    background-color: rgba(0, 0, 0, 0.4);
+}
