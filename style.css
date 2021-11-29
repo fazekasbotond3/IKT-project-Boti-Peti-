@@ -72,8 +72,11 @@ iframe{
 }
 
 body{
+    background-image: url('');
+}
+
+#galeriabody{
     background-color: rgb(190, 152, 102);
-    background-image: none;
 }
 
 .galeriadiv{
@@ -82,7 +85,7 @@ body{
 }
 
 #galerianavbar{
-    width: 99%;
+    width: 100%;
     height: 2%;
     background-color: rgb(82, 60, 33);
 }
@@ -117,6 +120,7 @@ table{
     border-collapse: collapse;
     width: 30%;
     margin-left: 35%;
+    margin-top: 10%;
 }
 
 td{
@@ -152,9 +156,61 @@ h2{
 h3{
     font-family: rubik-italic-variablefont_wght;
     font-size: 24px;
+    margin-left: 25%;
 }
 
 ul{
     font-family: rubik-italic-variablefont_wght;
     font-size: 20px;
+    margin-bottom: 10%;
+    margin-left: 25%;
+}
+
+li{
+    line-height: 200%;
+}
+
+#felsorolaskep{
+    width: 300px;
+    height: 200px;
+    float: right;
+    margin-right: 25%;
+    border: 2px solid rgb(82, 60, 33);
+    border-radius: 8px;
+}
+
+#container{
+    width: 70%;
+    background-color: rgb(190, 152, 102);
+    margin-left: 15%;
+    margin-bottom: -1%;
+    margin-top: -1%;
+}
+
+#egyebnavbar{
+    width: 100%;
+    height: 2%;
+    background-color: rgb(82, 60, 33);
+}
+
+.egyebbutton{
+    width: 14%;
+    color: rgb(255, 220, 175);
+    margin-left: 2%;
+    margin-top: 1%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.egyebbutton:hover{
+    color: white;
+    font-size: 34px;
+}
+
+#termekek{
+    margin-left: 4.3%;
+}
+
+#fooldal{
+    margin-left: 0.5%;
 }
