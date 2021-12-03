@@ -221,6 +221,11 @@ li{
 
 
 
-.űrlap{
-    
+.urlap{
+    color: rgb(82, 60, 33);
+    text-align: center;
+}
+
+.urlapigazitas{
+    text-align: center;
 }

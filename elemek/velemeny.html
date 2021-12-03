@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bemutatkozás</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
     <div id="container">
@@ -17,17 +17,24 @@
             <a href="/elemek/kapcsolat.html"><button class="egyebbutton">Kapcsolat</button></a> 
             <a href="/elemek/velemeny.html"><button class="egyebbutton">Vélemény</button></a> 
         </div>
-        <div class="bcontent">
-            <h1>Vélemény</h1>
-            <p class="űrlap">Számunkra fontos a véleménye. Értékelheti termékünket az alábbi űrlap kitöltésével.</p>
-            <p class="űrlap">Név(teljes):<input type="text"></p>
-            <p class="űrlap">Email:<input type="email"></p>
-            <p class="űrlap">Dátum(mikor volt nálunk):<input type="date"></p>
-            <p class="űrlap">Étel amit evett(csak egyet adjon meg):<input type="text"></p>
-            <p class="űrlap">Adja meg ezen a skálán mennyire tetszett az étel:<input type="range"></p>
-            <p class="űrlap">Rövid vélemény, min kellene változtatni(opcionális):</p> 
-            <textarea cols=40 rows=4></textarea>
-            <p class="űrlap"><input type='reset'>     <input type='submit'></p>
+        <h1>Vélemény</h1>
+        <div class="urlapigazitas">
+            <p class="urlap">Számunkra fontos a véleménye. Értékelheti termékünket az alábbi űrlap kitöltésével.</p>
+            <p class="urlap">Név(teljes):</p>
+            <input type="text">
+            <p class="urlap">Email:</p>
+            <input type="email">
+            <p class="urlap">Dátum(mikor volt nálunk):</p>
+            <input type="date">
+            <p class="urlap">Étel amit evett <br> (csak egyet adjon meg):</p>
+            <input type="text">
+            <p class="urlap">Adja meg ezen a skálán <br> mennyire tetszett az étel:</p>
+            <input type="range">
+            <p class="urlap">Rövid vélemény, min <br> kellene változtatni(opcionális):</p> 
+            <div>
+                <textarea cols=40 rows=4></textarea>
+            </div>
+            <p class="urlap"><input type='reset'>     <input type='submit'></p>
         </div>
     </div>
 </body>
