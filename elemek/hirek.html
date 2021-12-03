@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="hu">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,57 +8,80 @@
     <title>Hírek</title>
     <link rel="stylesheet" href="/style.css">
 </head>
+
 <body>
     <div id="container">
-    <div id="galerianavbar">
-        <a href="index.html"><button id="fooldal" class="egyebbutton">Főoldal</button></a> 
-        <a href="/elemek/bemutatkozas.html"><button class="egyebbutton">Bemutatkozás</button></a> 
-        <a href="/elemek/termekek.html"><button id="termekek" class="egyebbutton">Termékek</button></a> 
-        <a href="/elemek/hirek.html"><button class="egyebbutton">Hírek</button></a> 
-        <a href="/elemek/kapcsolat.html"><button class="egyebbutton">Kapcsolat</button></a> 
-        <a href="/elemek/velemeny.html"><button class="egyebbutton">Vélemény</button></a> 
-    </div>
-    <div class="bcontent">
-        <h1>Hírek</h1>
-        <h2>Zenekar az Iszogatóban</h2>
-        <p>Az ismeretle nám feltörekvő Tülkölő zenekar mostantól havonta két este jön előadást tartani és szórakoztatni a vendégeket. Ez egy hatalmas lehetőség számukra, mert egy viszonylag nagy közegnek adnak elő és ezzel hírnevet tudnak szerezni. A vendégnek is megkérdeztük a véleményét a zenekarról. Véleményük szerint ahhoz képest, hogy ismeretlenek nagyon jól játtszanak. Az első nagyobb szabású előadásuk december 26.-án lesz iszogatónkban</p>
-        <img src="/images/zenekar.jpg" alt="">
-        <h2>Buli Szenteste</h2>
-        <p>Szenteste falusi bulit rendezünk az iszogató hátsó kertjében. Karácsony alkalmából 50%-os leárazás van minden termékünkön. A programok az alábbi módon és időpontokban fog zajlani december 24-én:</p>
-        <table>
-            <tr>
-                <td>10:00-15:00</td>
-                <td>Iszogató feldíszítés és felkészülés a nyításra</td>
-            </tr>
-            <tr>
-                <td>15:00-15:30</td>
-                <td>Ünnepélyes megnyitó</td>
-            </tr>
-            <tr>
-                <td>15:30-17:00</td>
-                <td>Zene és hagyományos vendéglátás</td>
-            </tr>
-            <tr>
-                <td>17:00-19:00</td>
-                <td>Karácsonyfa díszítés</td>
-            </tr>
-            <tr>
-                <td>19:00-21:00</td>
-                <td>Megjön a Jézuska(ingyen sör mindenkinek)</td>
-            </tr>
-            <tr>
-                <td>21:00-22:30</td>
-                <td>Bálkirály és királynő választás</td>
-            </tr>
-            <tr>
-                <td>22:30-reggel 5:00</td>
-                <td>Korlátlan bulizás</td>
-            </tr>
-        </table>
-    </div>
-    <div class="bfooter">
+        <div id="galerianavbar">
+            <a href="index.html"><button id="fooldal" class="egyebbutton">Főoldal</button></a>
+            <a href="/elemek/bemutatkozas.html"><button class="egyebbutton">Bemutatkozás</button></a>
+            <a href="/elemek/termekek.html"><button id="termekek" class="egyebbutton">Termékek</button></a>
+            <a href="/elemek/hirek.html"><button class="egyebbutton">Hírek</button></a>
+            <a href="/elemek/kapcsolat.html"><button class="egyebbutton">Kapcsolat</button></a>
+            <a href="/elemek/velemeny.html"><button class="egyebbutton">Vélemény</button></a>
+        </div>
+        <div class="bcontent">
 
+            <h1>Hírek</h1>
+            <br><br>
+
+            <h2 id="hirekalcim">Zenekar az Iszogatóban</h2>
+            <br>
+
+            <p>Az ismeretle nám feltörekvő Tülkölő zenekar mostantól havonta két este jön előadást tartani és
+                szórakoztatni a vendégeket. Ez egy hatalmas lehetőség számukra, mert egy viszonylag nagy közegnek adnak
+                elő és ezzel hírnevet tudnak szerezni. A vendégnek is megkérdeztük a véleményét a zenekarról. Véleményük
+                szerint ahhoz képest, hogy ismeretlenek nagyon jól játtszanak. Az első nagyobb szabású előadásuk
+                december 26.-án lesz iszogatónkban</p>
+
+            <iframe id="video" width="500" height="280" src="https://www.youtube.com/embed/QtrJmOwW8sg"
+            type="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+
+            <img id="zenekar" src="/images/zenekar.jpg" alt="">
+                <br><br>
+                <hr color="rgb(82, 60, 33)">
+                <br><br>
+            <h2>Buli Szenteste</h2>
+                <br>
+            <p>Szenteste falusi bulit rendezünk az iszogató hátsó kertjében. Karácsony alkalmából 50%-os leárazás van
+                minden termékünkön. A programok az alábbi módon és időpontokban fog zajlani december 24-én:</p>
+            
+            <table>
+                <tr>
+                    <td>10:00-15:00</td>
+                    <td>Iszogató feldíszítés és felkészülés a nyításra</td>
+                </tr>
+                <tr>
+                    <td>15:00-15:30</td>
+                    <td>Ünnepélyes megnyitó</td>
+                </tr>
+                <tr>
+                    <td>15:30-17:00</td>
+                    <td>Zene és hagyományos vendéglátás</td>
+                </tr>
+                <tr>
+                    <td>17:00-19:00</td>
+                    <td>Karácsonyfa díszítés</td>
+                </tr>
+                <tr>
+                    <td>19:00-21:00</td>
+                    <td>Megjön a Jézuska(ingyen sör mindenkinek)</td>
+                </tr>
+                <tr>
+                    <td>21:00-22:30</td>
+                    <td>Bálkirály és királynő választás</td>
+                </tr>
+                <tr>
+                    <td>22:30-reggel 5:00</td>
+                    <td>Korlátlan bulizás</td>
+                </tr>
+            </table>
+        </div>
+        <div class="bfooter">
+
+        </div>
     </div>
-</div>
 </body>
+
 </html>
