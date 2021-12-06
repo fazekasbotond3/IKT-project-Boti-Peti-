@@ -247,8 +247,8 @@ footer:hover{
 #fedes{
     width: 300px;
     height: 200px;
-    margin-right: -22.9%;
-    margin-top: 0.15%;
+    margin-right: -23.88%;
+    margin-top: 0.17%;
     border-radius: 8px;
     opacity: 0;
     transition: 1s;
@@ -280,3 +280,48 @@ footer:hover{
     margin-bottom: 5%;
     border: black solid 2px;
 }
+
+p:first-letter{
+    margin-left: 3%;
+}
+
+#kapcsolatfelsorolas{
+    margin-left: 3%;
+    padding-top: 4%;
+}
+
+.urlap{
+    color: rgb(82, 60, 33);
+    margin-left: -3%;
+}
+
+.urlapigazitas{
+    text-align: center;
+}
+
+#urlapgombok{
+    background-color: rgb(82, 60, 33);
+    border: none;
+    border-radius: 8px;
+    padding: 2%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    font-size: 18px;
+    color: white;
+    box-shadow: rgb(82, 51, 33) 5px 5px 5px;
+    margin-left: 4.5%;
+}
+
+#urlapgombok:active{
+    transform: translateY(4px)
+}
+
+#boxok{
+    border: rgb(82, 60, 33) 3px solid;
+    background-color: rgb(209, 186, 156);
+}
+
+#urlapbr{
+    margin-left: 3%;
+}
+

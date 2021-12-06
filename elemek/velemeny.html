@@ -4,37 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bemutatkozás</title>
+    <title>Vélemény</title>
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
     <div id="container">
         <div id="galerianavbar">
-            <a href="/index.html"><button class="egyebbutton">Főoldal</button></a> 
+            <a href="/index.html"><button id="fooldal" class="egyebbutton">Főoldal</button></a> 
             <a href="/elemek/bemutatkozas.html"><button class="egyebbutton">Bemutatkozás</button></a> 
-            <a href="/elemek/termekek.html"><button class="egyebbutton">Termékek</button></a> 
+            <a href="/elemek/termekek.html"><button id="termekek" class="egyebbutton">Termékek</button></a> 
             <a href="/elemek/hirek.html"><button class="egyebbutton">Hírek</button></a> 
             <a href="/elemek/kapcsolat.html"><button class="egyebbutton">Kapcsolat</button></a> 
             <a href="/elemek/velemeny.html"><button class="egyebbutton">Vélemény</button></a> 
         </div>
         <h1>Vélemény</h1>
+        <br>
         <div class="urlapigazitas">
             <p class="urlap">Számunkra fontos a véleménye. Értékelheti termékünket az alábbi űrlap kitöltésével.</p>
+            <br>
             <p class="urlap">Név(teljes):</p>
-            <input type="text">
+            <input id="boxok" type="text">
             <p class="urlap">Email:</p>
-            <input type="email">
+            <input id="boxok" type="email">
             <p class="urlap">Dátum(mikor volt nálunk):</p>
-            <input type="date">
-            <p class="urlap">Étel amit evett <br> (csak egyet adjon meg):</p>
-            <input type="text">
-            <p class="urlap">Adja meg ezen a skálán <br> mennyire tetszett az étel:</p>
-            <input type="range">
-            <p class="urlap">Rövid vélemény, min <br> kellene változtatni(opcionális):</p> 
+            <input id="boxok" type="date">
+            <p class="urlap">Étel amit evett <br> <span id="urlapbr">(csak egyet adjon meg):</span></p>
+            <input id="boxok" type="text">
+            <p class="urlap">Adja meg ezen a skálán <br> <span id="urlapbr">mennyire tetszett az étel:</span></p>
+            <input id="slide" type="range">
+            <p class="urlap">Rövid vélemény, min <br> <span id="urlapbr">kellene változtatni(opcionális):</span></p> 
             <div>
-                <textarea cols=40 rows=4></textarea>
+                <textarea id="boxok" cols=50 rows=4></textarea>
             </div>
-            <p class="urlap"><input type='reset'>     <input type='submit'></p>
+            <p class="urlap"><input onclick="myFunction()" id="urlapgombok" type='reset'>     
+            <script>
+                function myFunction() {
+                  alert("Űrlapodat töröltük!");
+                }
+                </script>
+
+                <input onclick="myFunction2()" id="urlapgombok" type='submit'></p>
+                
+                <script>
+
+                function myFunction2() {
+                alert("Véleményedet rögzítettük!");
+                 }
+        </script>
         </div>
     </div>
 </body>
